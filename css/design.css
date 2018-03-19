@@ -1,0 +1,84 @@
+/*Marine HERRADA le 14/02/2018
+Objet: examen du 14/02/2018
+
+-------------POLICES-------------------
+font-family: 'Merienda', cursive;
+
+-------------COULEURS-------------------
+	navbar : #061339
+    premier bloc : #B9CDFF + background
+    titre h1 : #FFF
+    autres titres : #2F4073
+	footer : #061339
+    tête chat défaut : #7885A5
+    tête chat hover : #061339
+/*--------------------------------------*/
+
+/*-----------GESTION DES LIENS--------*/
+header a:link{
+	color: white;
+	text-decoration: none;
+}
+header a:visited{
+	color: white;
+	text-decoration: none;
+}
+/*---------GENERAL-------------------*/
+
+h1, h2, h3, h4{
+	font-family: 'Merienda', cursive;
+}
+h1{
+	font-size: 1em;
+}
+
+h2{
+	color: white;
+	font-size: 1.7em;
+	text-shadow: 2px 2px grey;
+}
+h3{
+	font-size: 1em;
+	color: #2F4073;
+}
+h4{
+	font-size: 2em;
+	color: #2F4073;
+}
+
+/*----------HEADER---------------------------*/
+
+header{
+	margin-bottom: 20px;
+}
+section{
+	background-color: #f0f0f0;
+}
+form{
+	border: 1px solid silver;
+	border-radius: 2px;
+	margin-bottom: 20px;
+}
+/*----------MAIN---------------------------*/
+.formulaire{
+	margin:20px 0;
+}
+main{
+	background-color: #DEDEDE;/*J'ai trouvé la couleur avec l'outil pipette*/
+	font-size: 0.7em;
+}
+main img{
+	background-color: #7885A5;
+}
+main img:hover{
+	background-color: #061339;
+}
+
+main h4{
+	padding: 20px 0;
+}
+
+/*----------FOOTER---------------------------*/
+footer{
+	background-color: #061339;
+}
